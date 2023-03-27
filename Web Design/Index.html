@@ -11,27 +11,29 @@
 </head>
 
 <body>
+    <body class="body">
     <nav class="navbar background">
         <ul class="nav-list">
             <div class="logo">
-                    <img src="logo.png">
+                    <img src="logo.png" alt="">
             </div>
-            <li><a href="#web">Web Technology</a></li>
-            <li><a href="#programing">C Programming</a></li>
-            <li><a href="#course">Courses</a></li>
+            <li><a href="#Photography">Photography</a></li>
+            <li><a href="#Graphics">Graphics</a></li>
+            <li><a href="#bio">Bio</a></li>
+        </body>
         </ul>
     
         <div class="rightNav">
             <input type="text" name="search" id="search">
-            <button class="btn btn-sm">Search</button>
+            <button class="btn btn-sm" onclick="greet()" >Greet Me!</button>
         </div>
     </nav>
 
-    <section class="firstselection">
+    <section class="firstsection" id="Photography">
         <div class="box-main">
-            <div class="firstHalf">
-                <h1 class="text-big" id="web">
-                    Web Technology
+            <div class="firstHalf" >
+                <h1 class="text-big" >
+                    Photography
                 </h1>
     
                 <p class="text-small">
@@ -55,11 +57,11 @@
         </div>
     </section>
 
-    <section class="secondsection">
+    <section class="secondsection" id="Graphics">
         <div class="box-main">
             <div class="secondHalf">
-                <h1 class="text-big" id="program">
-                    C Programming
+                <h1 class="text-big" >
+                    Graphics
                 </h1>
                 <p class="text-small">
                     C is a procedural programming language.
@@ -78,9 +80,9 @@
         </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="bio">
         <div class="paras">
-            <h1 class="selectionTag text-big">Java</h1>
+            <h1 class="selectionTag text-big">Bio</h1>
 
             <p class="sectionSubTag text-small">
                 Java has been one of the most
@@ -100,8 +102,9 @@
         </div>
     
         <div class="thumbnail">
-            <img src="img.png" alt="laptop image">
+            <img src="Bio.jpg">
         </div>
+    
     </section>
 
     <footer class="background">
@@ -110,6 +113,9 @@
         </p>
 
     </footer>
+    
+    <script src="./script.js"></script>
+
 </body>
 
 </html>
