@@ -10,7 +10,7 @@
     justify-content: center;
     position: sticky;
     top: 0;
-    cursor: pointer;
+    cursor: pointer;    
     background-color: black;
 }
 
@@ -24,6 +24,7 @@
     width: 70%;
     display: flex;
     align-items: center;
+    font-family: cursive
 }
 
 .logo {
@@ -110,13 +111,14 @@ li {
 }
 
 .text-big {
-    font-family: 'Piazzolla', serif;
+    font-family: cursive;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 45px;
 }
 
 .text-small {
     font-size: 18px;
+    font-family: cursive;
 }
 
 .btn {
@@ -153,7 +155,7 @@ li {
 
 .thumbnail img {
     width: 150px;
-    border: 2px solid black;
+    border: 2px solid grey;
     margin: 19px;
     justify-content: left;
 }
