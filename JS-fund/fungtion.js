@@ -31,7 +31,7 @@ if ( a>10 ){
 }
 */
 
-let a = 100;
+/*let a = 100;
 let b = 50;
 let c = 25;
 
@@ -40,4 +40,16 @@ if ( a>b || a>c){
 }   else if (a<b && a<c){
     console.log(false);
 }
+*/
 
+
+let a = 10 % 2;
+
+
+if (a==0 && a==2){
+    console.log("even");
+}   else if (a!=0 && a!=2){
+    console.log("odd");
+}   else {
+    console.log("even")
+}
