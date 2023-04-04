@@ -128,23 +128,25 @@ function salary(1st,2nd,3rd)
 
 calSalary (32,7,20)
   */     
+//------------------------------------------------------------generation of email---------------------------
 
   /*function emailGen(fname="Jon", iname = "Don"){
     let email=fname + "." + iname + "@gsb.co.za"
     return email.toLowerCase()            //-----lower cases
 
   }
-
  // console.log(emailGen())
   console.log(emailGen("Bulelani","Kheswa"))
   */
 
-  let num1= [1,3,5,7]
+ /* let num1= [1,3,5,7]
   let num2= [0,2,4,6]
-  let num3= [...num1,...num2]
+  let num3= [num1,num2] //--------spread opaerator    (...)rest
   let num4= num1.concat(num2)
 
-  let num1.sort((a,b)=> a-b)
-
+ // num3.sort((a,b)=> b-a)
+  // num3.push("This is num3", num3)
   console.log("This is num3", num3)
- console.log("This is num2", num4)
+ //console.log("This is num2", num4)
+
+ */
