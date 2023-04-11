@@ -1,0 +1,8 @@
+.header {
+    color: white;
+    font-size: 125px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200px;
+    text-shadow: -1px -1px 0 blueviolet, -1px 1px 0 blueviolet, 1px 1px blueviolet
+
+}
