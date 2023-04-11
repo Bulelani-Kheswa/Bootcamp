@@ -9,24 +9,17 @@ return fTemp = cTemp + '\xBOF is + ' fToCel + ' cToFah
  console.log(Fah)
  */
 
-/* function convertTemp(F) {
+function convertTemp() {
 
-   let C = (F - 32) *5/9
-   console.log(C)
-   if ( C < 16 ) {
-      console.log("It's cold (wear jacket)");
-   }
+let F = Number(document.getElementById("EnterTemperature").value);
+let C = (F - 32) *5/9;
+   
 
-   else if( C>= 16 && C<21 ) {
-      console.log("it's warm (wear T_Jeans");
-   }
+   if ( C < 16 )alert(C+ " " + "It's cold (wear jacket)");
+   
+   else if( C>= 16 && C<=21 )alert(C+ " " + "it's warm (wear T_Jeans");
 
-   else ( C < 21)
-   {
-      console.log("hot (wear short)");
-   }
+   else if ( C > 21)
+   alert(C+ " " + "hot (wear short)");
 }
-
-convertTemp(500)
-*/
 

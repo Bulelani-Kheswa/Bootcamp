@@ -6,12 +6,17 @@ function year(i) {
 if ( year < 0 ) {
     console.log("age can't be negitive");
     }
-    else if ( !year ) {
 
-         console.log("enter year");
+    else if ( !year ) {
+console.log("enter year");
     }
+
+/*else (year == 0 ){
+        console.log("enter year");
+    }
+    */
    
 
  }
 
-year()
+year(2023)
