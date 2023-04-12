@@ -5,13 +5,20 @@ let year = Number(document.getElementById("EnterYear").value);
 let age = (2023-year);
   // console.log(age)
 
-if ( !year )alert("enter born-year");
-else if( age >= 0)alert(age);
-else if ( age < 0 ) alert("age can't be negitive");
-    
+  answers = document.getElementById("results")
+  answers.innerHTML = age
 
-   
-  }
+  if ( !year ) answers.innerHTML=("enter born-year")
+  else if ( age < 0) answers.innerHTML=("age can't be negitive")
+  else if (year < 0) answers.innerHTML=("year can't be negitive")
+  else if ( age >= 0) answers.innerHTML=(age)
+}
+
+// if ( !year ) {alert("enter born-year")}
+// else if ( age < 0) {alert("age can't be negitive")}
+// else if (year < 0) {alert("year can't be negitive")}
+// else if ( age >= 0) {alert(age)}
+
     
  // }CalcAge(1999)
 
