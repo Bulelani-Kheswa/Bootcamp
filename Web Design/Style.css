@@ -24,7 +24,7 @@
     width: 70%;
     display: flex;
     align-items: center;
-    font-family: cursive
+    font-family: Sans-serif; 
 }
 
 .logo {
@@ -111,8 +111,7 @@ li {
 }
 
 .text-big {
-    font-family: cursive;
-    font-weight: bold;
+    font-family: Sans-serif Helvetica;
     font-size: 45px;
 }
 

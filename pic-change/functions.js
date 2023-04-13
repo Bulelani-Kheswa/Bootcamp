@@ -7,6 +7,16 @@ let i = 0;
 img.src = images[i];
 
 
+
+function AddSub(){
+let pic = document.getElementById("submit").value
+images.push(pic);
+
+
+document.getElementById("submit").value = '';
+
+}
+
 function next() {
 
    i++;
