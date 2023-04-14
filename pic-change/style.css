@@ -1,6 +1,6 @@
 .header {
     color: white;
-    font-size: auto;
+    font-size: 19pt;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 200px;
     text-shadow: -1px -1px 0 blueviolet, -1px 1px 0 blueviolet, 1px 1px blueviolet
@@ -11,6 +11,4 @@
     margin-left: 5cm;
     color: blueviolet;
     
-
-
 }
