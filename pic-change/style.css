@@ -7,6 +7,11 @@
 
 }
 
+.images {
+    height: 300px;
+    width: auto;
+}
+
 .button {
     margin-left: 5cm;
     color: blueviolet;
