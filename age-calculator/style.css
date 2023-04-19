@@ -7,6 +7,10 @@ background-color: burlywood;
 
 }
 
+h3 {
+    display: inline;
+}
+
 body {
     background-color: lightblue;
     
